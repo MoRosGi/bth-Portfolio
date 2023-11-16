@@ -6508,7 +6508,6 @@ p, td, th, li, dd {
     cursor: pointer;
   }
 }
-/* General */
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6527,30 +6526,23 @@ html, body {
 body {
   background-color: #DFF2D8;
   line-height: 1.4;
+  /* Placement */
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  /*flex: 1 0 auto;*/
+  width: 64em;
+  margin: 0 auto;
 }
 
 img {
   max-width: 100%;
 }
 
-/* Placement */
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 ol, ul {
   padding-left: 1.5em;
-}
-
-.main {
-  flex: 1 0 auto;
-}
-
-/* Main */
-.main {
-  width: 80%;
-  margin: 0 auto;
 }
 
 p {
@@ -6648,4 +6640,81 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+/* technologies grid */
+.landingpage {
+  display: grid;
+  gap: 1.8rem 1.8rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 67rem;
+  padding: 1.8rem 1.5rem;
+}
+
+.span-1 {
+  grid-column: span 1;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.span-3 {
+  grid-column: span 3;
+}
+
+.landingpage > h1 {
+  grid-column: span 3;
+  font-size: 3rem;
+  color: #AE5635;
+  padding: 0.8rem;
+  margin: auto;
+}
+
+.box {
+  padding-top: 1.5em;
+  border: 3px solid #DD609E;
+  height: 10rem;
+}
+
+.landingpage > h1, .box {
+  text-align: center;
+}
+
+/* technologies grid responsiveness */
+@media (max-width: 600px) {
+  .landing {
+    padding: 0.5em;
+    gap: 5px;
+  }
+  .landingpage > h1, .span-1, .span-2, .span-3 {
+    grid-column: span 1;
+  }
+}
+/* technology flexbox */
+.tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tech-menu {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.tech-content {
+  width: 60%;
+}
+
+/* technology flexbox responsiveness*/
+@media (max-width: 600px) {
+  .tech-menu {
+    display: none;
+  }
 }
