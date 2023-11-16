@@ -1,0 +1,49 @@
+/* General */
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: $body-background-color;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Placement */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+/* Main */
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    @include paragraph-font-size-and-color;
+    margin-bottom: 1.75rem;
+}

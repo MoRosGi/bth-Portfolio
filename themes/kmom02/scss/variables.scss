@@ -1,0 +1,29 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+$header-font: 'Open Sans', sans-serif;
+$main-font: 'Roboto', sans-serif;
+
+
+/* paragraph */
+$paragraph-font-color: #242724;
+$paragraph-font-size: 1.25rem;
+@mixin paragraph-font-size-and-color {
+    font-size: $paragraph-font-size;
+    color: $paragraph-font-color;
+}
+
+/* background */
+$body-background-color: #DFF2D8;
+$site-header-background-color: #7EBDC3;
+
+/* site-header */
+$navbar-hover-border: #CED097;
+$navbar-active-border: #DD609E;
+$navbar-header-font-color: #7A6263;
+
+$title-site-font-color: #AE5635;
+
+/* footer */
+$footer-background-color: #CED097;
+$footer-icon-color: #DD609E;

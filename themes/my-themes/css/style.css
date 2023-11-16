@@ -1,9 +1,3 @@
-/*my-themes*/
-
-body {
-    background-color: pink;
-}
-
 /* General */
 * {
     box-sizing: border-box;
@@ -22,6 +16,10 @@ ol, ul {
 
 html, body {
     height: 100%;
+}
+
+body {
+    background-color: pink;
 }
 
 /* Placement */
@@ -71,7 +69,7 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 3em;
 }
 
 @media (max-width: 767px) {

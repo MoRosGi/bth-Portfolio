@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    border-top: 1px solid;
+    background-color:$footer-background-color;
+    padding: 4rem 6rem;
+}
+
+.footer a {
+    color: $footer-icon-color;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
