@@ -17,14 +17,13 @@
 .landingpage > h1 {
     grid-column: span 3;
     font-size: 3rem;
-    color: $title-site-font-color;
     padding: 0.8rem;
     margin: auto;
 }
 
 .box {
     padding-top: 1.5em;    
-    border: 3px solid $navbar-active-border;
+    border: 3px solid $accent-color;
     height: 10rem;
 }
 

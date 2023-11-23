@@ -1,25 +1,39 @@
-p {
-    font-family: $main-font;
-}
-
-h1,
 h2,
 h3,
 h4,
 h6 {
+    margin-bottom: 0.8em;
+    margin-top: 0.6em;
     font-family: $header-font;
-    margin-bottom: 0.6em;
-    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 2.8em;
+    margin-top: 0.6em;
+    font-family: $special-font;
 }
 
 body {
-    font-family: sans-serif;
     line-height: 1.4;
-    color: #444;
+    color: $main-font-color;
 }
 
 p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    font-family: $main-font;
+    @include paragraph-font-size-and-color;
+}
+
+p {
+    margin-bottom: 1.75rem;
+}
+
+ol, ul, a {
+    color: $main-font-color;
+}
+
+.nav a {
+    font-family: $header-font;
 }

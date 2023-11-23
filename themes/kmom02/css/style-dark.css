@@ -3,7 +3,7 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Libre+Baskerville&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Karla&display=swap");
 .fa,
 .fas,
 .far,
@@ -6425,13 +6425,18 @@ template {
 }
 
 /* @ import from .scss files */
+/* image filter */
+img {
+  filter: drop-shadow(5px 5px 20px #CC1427) invert(75%);
+}
+
 h2,
 h3,
 h4,
 h6 {
   margin-bottom: 0.8em;
   margin-top: 0.6em;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Karla", sans-serif;
 }
 
 h1 {
@@ -6442,16 +6447,16 @@ h1 {
 
 body {
   line-height: 1.4;
-  color: #271D29;
+  color: #D3DDFD;
 }
 
 p, td, th, li, dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Inconsolata", monospace;
   font-size: 1.25rem;
-  color: #271D29;
+  color: #D3DDFD;
 }
 
 p {
@@ -6459,11 +6464,11 @@ p {
 }
 
 ol, ul, a {
-  color: #271D29;
+  color: #D3DDFD;
 }
 
 .nav a {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Karla", sans-serif;
 }
 
 .slide {
@@ -6483,7 +6488,7 @@ ol, ul, a {
 }
 
 .nav a, .nav-toggle {
-  color: #DE51F5;
+  color: #4ABDA4;
 }
 
 .nav-toggle {
@@ -6541,13 +6546,13 @@ body {
 
 .main {
   flex: 1 0 auto;
-  background-color: #F2C23F;
+  background-color: #0A192F;
 }
 
 .container {
   max-width: 67rem;
   padding: 1.96rem 1.5rem;
-  background-color: #FFF7E0;
+  background-color: #172A46;
   margin: 0 auto;
 }
 
@@ -6567,8 +6572,8 @@ ol, ul {
 }
 
 .header {
-  background-color: #F2C23F;
-  border-bottom: 1px solid #271D29;
+  background-color: #0A192F;
+  border-bottom: 1px solid #D3DDFD;
 }
 
 /* Navbar */
@@ -6576,15 +6581,15 @@ ol, ul {
   font-size: 1.1rem;
   text-decoration: none;
   padding: 1.9rem 0;
-  color: #271D29;
+  color: #D3DDFD;
   text-transform: uppercase;
 }
 .nav a:hover {
-  border-bottom: 2px solid #DE51F5;
+  border-bottom: 2px solid #4ABDA4;
 }
 .nav .active a {
-  background-color: #DE51F5;
-  color: #F2C23F;
+  background-color: #4ABDA4;
+  color: #0A192F;
 }
 
 /* Title */
@@ -6593,7 +6598,7 @@ ol, ul {
 }
 
 .title * {
-  color: #271D29;
+  color: #D3DDFD;
   margin: 0 2rem;
   font-family: "Yeseva One", serif;
   text-decoration: none;
@@ -6603,13 +6608,13 @@ ol, ul {
   display: flex;
   flex: 0 0 auto;
   justify-content: space-between;
-  border-top: 3px dashed #271D29;
-  background-color: #F2C23F;
+  border-top: 3px dashed #D3DDFD;
+  background-color: #0A192F;
   padding: 4rem 6rem;
 }
 
 .footer a {
-  color: #271D29;
+  color: #D3DDFD;
   text-decoration: none;
 }
 
@@ -6625,15 +6630,15 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #8CF5D6;
+  border-left: 0.5em solid #070C3B;
 }
 
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #8CF5D6;
+  border: 1px solid #070C3B;
   border-radius: 0.3em;
-  background: #8CF5D6;
+  background: #070C3B;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6641,9 +6646,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #8CF5D6;
+  border: 1px solid #070C3B;
   border-radius: 0.3em;
-  background: #8CF5D6;
+  background: #070C3B;
 }
 
 pre code {
@@ -6689,7 +6694,7 @@ pre code {
 
 .box {
   padding-top: 1.5em;
-  border: 3px solid #DE51F5;
+  border: 3px solid #4ABDA4;
   height: 10rem;
 }
 

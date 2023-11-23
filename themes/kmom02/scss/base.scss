@@ -14,16 +14,20 @@ html, body {
 }
 
 body {
-    background-color: $body-background-color;
-    line-height: 1.4;    
-    /* Placement */
+    line-height: 1.4;
     display: flex;
     flex-direction: column;
 }
 
 .main {
-    /*flex: 1 0 auto;*/
-    width: 64em;
+    flex: 1 0 auto;
+    background-color: $main-background-color;
+}
+
+.container {
+    max-width: 67rem;
+    padding: 1.96rem 1.5rem;
+    background-color: $alternative-background-color;
     margin: 0 auto;
 }
 
@@ -33,9 +37,4 @@ img {
 
 ol, ul {
     padding-left: 1.5em;
-}
-
-p {
-    @include paragraph-font-size-and-color;
-    margin-bottom: 1.75rem;
 }

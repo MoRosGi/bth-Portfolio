@@ -1,29 +1,19 @@
-/* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Libre+Baskerville&family=Yeseva+One&display=swap');
 
-$header-font: 'Open Sans', sans-serif;
-$main-font: 'Roboto', sans-serif;
+$main-font: 'Josefin Sans', sans-serif;
+$header-font: 'Libre Baskerville', serif;
+$special-font: 'Yeseva One', serif;
 
-
-/* paragraph */
-$paragraph-font-color: #242724;
+$main-font-color: #271D29;
 $paragraph-font-size: 1.25rem;
 @mixin paragraph-font-size-and-color {
     font-size: $paragraph-font-size;
-    color: $paragraph-font-color;
+    color: $main-font-color;
 }
 
-/* background */
-$body-background-color: #DFF2D8;
-$site-header-background-color: #7EBDC3;
+$accent-color: #DE51F5;
 
-/* site-header */
-$navbar-hover-border: #CED097;
-$navbar-active-border: #DD609E;
-$navbar-header-font-color: #7A6263;
+$note-background-color: #8CF5D6;
 
-$title-site-font-color: #AE5635;
-
-/* footer */
-$footer-background-color: #CED097;
-$footer-icon-color: #DD609E;
+$main-background-color: #F2C23F;
+$alternative-background-color: #FFF7E0;

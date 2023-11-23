@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Karla&display=swap');
+
+$main-font: 'Inconsolata', monospace;
+$header-font: 'Karla', sans-serif;
+$special-font: 'Yeseva One', serif;
+
+$main-font-color: #D3DDFD;
+$paragraph-font-size: 1.25rem;
+@mixin paragraph-font-size-and-color {
+    font-size: $paragraph-font-size;
+    color: $main-font-color;
+}
+
+$accent-color: #4ABDA4;
+
+$note-background-color: #070C3B;
+
+$main-background-color: #0A192F;
+$alternative-background-color: #172A46;
+
+/* image filter */
+img {
+    filter: drop-shadow(5px 5px 20px #CC1427) invert(75%);
+}

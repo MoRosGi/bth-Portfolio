@@ -2,40 +2,44 @@
     display: flex;
     flex: 0 0 auto;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header {
-    background-color: $site-header-background-color;
+    background-color: $main-background-color;
+    border-bottom: 1px solid $main-font-color;
 }
 
 /* Navbar */
 .nav {
     a {
-        font-weight: bold;
-        font-size: 1.7rem;
+        font-size: 1.1rem;
         text-decoration: none;
-        padding: 0 1.7rem;
-        color: $navbar-header-font-color;
+        padding: 1.9rem 0;
+        color: $main-font-color;
+        text-transform: uppercase;
     }
 
     a:hover {
-        border-bottom: 4px solid $navbar-hover-border;
+        border-bottom: 2px solid $accent-color;
     }
 
     .active a {
-        border-bottom: 4px solid $navbar-active-border;
+        background-color: $accent-color;
+        color: $main-background-color;
     }
 }
 
 /* Title */
 .title, .logo {
-    padding: 3em;
+    padding: 1em;
 }
 
 .title * {
-    color: $title-site-font-color;
+    color: $main-font-color;
+    margin: 0 2rem;
+    font-family: $special-font;
+    text-decoration: none;
 }
 
-.title p {
-    font-style: italic;
-}
+
