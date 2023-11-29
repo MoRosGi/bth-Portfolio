@@ -3,6 +3,7 @@ Colors
 
 I den uppgiften ska jag analysera tre olika webbplatser med fokus på deras val av färgpalett och typografi.
 
+
 Urval
 -----------------------
 
@@ -28,7 +29,7 @@ Resultat
 
 <div class='container-small'>
 
-<img src='%assets_url%/img/dustin.png' alt="dustin" width="330" height="280">
+<img src='%assets_url%/img/colors/dustin.png' alt="dustin" width="330" height="280">
 
 <table class='table-palette'>
 <tr>
@@ -61,7 +62,7 @@ Resultat
 
 <div class='container-small'>
 
-<img src='%assets_url%/img/boozt.png' alt="dustin" width="330" height="280">
+<img src='%assets_url%/img/colors/boozt.png' alt="dustin" width="330" height="280">
 
 <table class='table-palette'>
 <tr>
@@ -93,7 +94,7 @@ Resultat
 
 <div class='container-small'>
 
-<img src='%assets_url%/img/apotea.png' alt="dustin" width="330" height="280">
+<img src='%assets_url%/img/colors/apotea.png' alt="dustin" width="330" height="280">
 
 <table class='table-palette'>
 <tr>

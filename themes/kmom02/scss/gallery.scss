@@ -1,0 +1,55 @@
+/* Gallery grid*/
+.gallery {
+    display: grid;
+    gap: 0.5rem 1rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 67rem;
+    padding: 1.8rem 1.5rem;
+}
+
+.span-1 { grid-column: span 1; }
+.span-3 { grid-column: span 3; }
+
+/*
+.gallery picture {
+width: 30%;
+}
+
+.gallery img,
+.gallery source {
+    width: 100%;
+}
+*/
+picture {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery > h1 {
+    grid-column: span 3;
+    font-size: 3rem;
+    padding: 0.8rem;
+    margin: auto;
+}
+
+.gallery > h1, .image {
+    text-align: center;
+}
+
+/* Gallery grid responsiveness*/
+
+@media (max-width: 600px) {
+    .gallery {
+        padding: 0.5em;
+        gap: 5px;
+    }
+
+    .gallery> h1, .span-1, .span-3 { grid-column: span 1; }
+    
+    .gallery img {
+        width: 100%;
+    }
+}
