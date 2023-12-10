@@ -111,5 +111,5 @@ Template: gallery
 </div>
 
 <div class="embed-container span-3">
-    <iframe src="https://www.youtube.com/embed/8kAU3B9Pi_U" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/8kAU3B9Pi_U" title="country music" frameborder="0" allowfullscreen></iframe>
 </div>

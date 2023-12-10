@@ -7,7 +7,7 @@
 
 .header {
     background-color: $main-background-color;
-    border-bottom: 1px solid $main-font-color;
+    border-bottom: 3px dashed $main-font-color;
 }
 
 /* Navbar */
@@ -18,15 +18,19 @@
         padding: 1.9rem 0;
         color: $main-font-color;
         text-transform: uppercase;
+        transition: color 0.3s, border-bottom 0.3s, letter-spacing 0.3s;
     }
 
     a:hover {
         border-bottom: 2px solid $accent-color;
+        color: $accent-color;
+        letter-spacing: 4px;
     }
-
+    
     .active a {
-        background-color: $accent-color;
-        color: $main-background-color;
+        font-weight: 700;
+        color: $accent-color;
+        letter-spacing: 4px;
     }
 }
 

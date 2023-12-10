@@ -24,7 +24,7 @@ Resultat
 
 
 <div class="embed-container">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrRgleI_dfneVE00Mk2wsJBrWhbLqhMd8RojaJQ_-hXw5vvDbB-uziQ7QfswkGL_zqyC1mKTEv60LQ/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrRgleI_dfneVE00Mk2wsJBrWhbLqhMd8RojaJQ_-hXw5vvDbB-uziQ7QfswkGL_zqyC1mKTEv60LQ/pubhtml?widget=true&amp;headers=false" title="load table"></iframe>
 </div>
 
 <p>Polisen hemsidan har en väldigt bra 'performance', det enda poäng som kunde förbättras är bilderna, som kunde ha särskilda bredd och höjd.</p>

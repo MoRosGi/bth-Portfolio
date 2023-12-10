@@ -6554,6 +6554,7 @@ body {
   padding: 1.96rem 1.5rem;
   background-color: #172A46;
   margin: 0 auto;
+  border-right: 3px dashed #D3DDFD;
 }
 
 img {
@@ -6573,7 +6574,7 @@ ol, ul {
 
 .header {
   background-color: #0A192F;
-  border-bottom: 1px solid #D3DDFD;
+  border-bottom: 3px dashed #D3DDFD;
 }
 
 /* Navbar */
@@ -6583,13 +6584,17 @@ ol, ul {
   padding: 1.9rem 0;
   color: #D3DDFD;
   text-transform: uppercase;
+  transition: color 0.3s, border-bottom 0.3s, letter-spacing 0.3s;
 }
 .nav a:hover {
   border-bottom: 2px solid #4ABDA4;
+  color: #4ABDA4;
+  letter-spacing: 4px;
 }
 .nav .active a {
-  background-color: #4ABDA4;
-  color: #0A192F;
+  font-weight: 700;
+  color: #4ABDA4;
+  letter-spacing: 4px;
 }
 
 /* Title */
@@ -6619,7 +6624,7 @@ ol, ul {
 }
 
 .footer .social {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .social a {
@@ -6771,8 +6776,19 @@ picture {
 
 .box {
   padding-top: 1.5em;
-  border: 3px solid #4ABDA4;
+  /*border: 3px solid $accent-color;*/
+  border-radius: 20px;
   height: 10rem;
+  box-shadow: inset 5px 10px #4ABDA4;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.box:hover {
+  transform: translateY(5px);
+  box-shadow: inset 10px 20px 2px #4ABDA4;
 }
 
 .landingpage > h1, .box {

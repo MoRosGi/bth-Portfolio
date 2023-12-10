@@ -46,11 +46,11 @@ Resultat
 
 </div>
 
-#### Färgschema
+### Färgschema
 
 <p>De fyra första färger använder ett monokromatiskt färgschema. De färgerna är basen av hemsidan färgpaletten. De tre sista färger använder ett triadiskt färgschema. De färgerna används för att markera speciell evenemang såsom "Bästsäljande kampanjprodukter" och rabattpriser.</p>
 
-#### Typsnitt
+### Typsnitt
 
 <p>Webbplatsen använda 'DustinSans, sans-serif', som typsnitt överallt i webbplatsen.</p>
 
@@ -77,12 +77,12 @@ Resultat
 
 </div>
 
-#### Färgschema
+### Färgschema
 
 <p>De tre första färger använder ett monokromatiskt färgschema. De färgerna är basen av hemsidan färgpaletten. De två sista färger använder som en del av ett triadiskt färgschema. De färgerna används för att markera speciell evenemang såsom "Black Friday" eller erbjudande.</p>
 
 
-#### Typsnitt
+### Typsnitt
 
 <p>Webbplatsen använda 'helvetica, arial, sans-serif', som typsnitt överallt i webbplatsen. Stor kaps används för alla erbjudande titel och menu-val.</p>
 
@@ -109,11 +109,11 @@ Resultat
 
 </div>
 
-#### Färgschema
+### Färgschema
 
 <p>De tre första färger använder ett monokromatiskt färgschema. De färgerna är basen av hemsidan färgpaletten men det är viktigt att markera att hemsidan header brukar vara röd och inte svart (färgen har bytt under black friday veckan). De två sista färgerna används som en del av ett komplement färgschema. De färgerna används för att markera speciell evenemang såsom rabatt eller viktiga del av hemsidan såsom sökbar, kassan, kontakt.</p>
 
-#### Typsnitt
+### Typsnitt
 
 <p>Webbplatsen använda 'Open Sans', sans-serif, som typsnitt överallt  i webbplatsen.</p>
 

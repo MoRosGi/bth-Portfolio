@@ -4,14 +4,14 @@ $main-font: 'Josefin Sans', sans-serif;
 $header-font: 'Libre Baskerville', serif;
 $special-font: 'Yeseva One', serif;
 
-$main-font-color: #271D29;
+$main-font-color: #423300;
 $paragraph-font-size: 1.25rem;
 @mixin paragraph-font-size-and-color {
     font-size: $paragraph-font-size;
     color: $main-font-color;
 }
 
-$accent-color: #DE51F5;
+$accent-color: #610A71;
 
 $note-background-color: #8CF5D6;
 

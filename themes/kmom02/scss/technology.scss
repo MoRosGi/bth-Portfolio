@@ -23,8 +23,19 @@
 
 .box {
     padding-top: 1.5em;    
-    border: 3px solid $accent-color;
+    /*border: 3px solid $accent-color;*/
+    border-radius: 20px;
     height: 10rem;
+    box-shadow: inset 5px 10px $accent-color;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box:hover {
+    transform: translateY(5px);
+    box-shadow: inset 10px 20px 2px $accent-color;
 }
 
 .landingpage > h1, .box {

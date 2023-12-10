@@ -6442,7 +6442,7 @@ h1 {
 
 body {
   line-height: 1.4;
-  color: #271D29;
+  color: #423300;
 }
 
 p, td, th, li, dd {
@@ -6451,7 +6451,7 @@ p, td, th, li, dd {
   word-wrap: break-word;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.25rem;
-  color: #271D29;
+  color: #423300;
 }
 
 p {
@@ -6459,7 +6459,7 @@ p {
 }
 
 ol, ul, a {
-  color: #271D29;
+  color: #423300;
 }
 
 .nav a {
@@ -6483,7 +6483,7 @@ ol, ul, a {
 }
 
 .nav a, .nav-toggle {
-  color: #DE51F5;
+  color: #610A71;
 }
 
 .nav-toggle {
@@ -6549,6 +6549,7 @@ body {
   padding: 1.96rem 1.5rem;
   background-color: #FFF7E0;
   margin: 0 auto;
+  border-right: 3px dashed #423300;
 }
 
 img {
@@ -6568,7 +6569,7 @@ ol, ul {
 
 .header {
   background-color: #F2C23F;
-  border-bottom: 1px solid #271D29;
+  border-bottom: 3px dashed #423300;
 }
 
 /* Navbar */
@@ -6576,15 +6577,19 @@ ol, ul {
   font-size: 1.1rem;
   text-decoration: none;
   padding: 1.9rem 0;
-  color: #271D29;
+  color: #423300;
   text-transform: uppercase;
+  transition: color 0.3s, border-bottom 0.3s, letter-spacing 0.3s;
 }
 .nav a:hover {
-  border-bottom: 2px solid #DE51F5;
+  border-bottom: 2px solid #610A71;
+  color: #610A71;
+  letter-spacing: 4px;
 }
 .nav .active a {
-  background-color: #DE51F5;
-  color: #F2C23F;
+  font-weight: 700;
+  color: #610A71;
+  letter-spacing: 4px;
 }
 
 /* Title */
@@ -6593,7 +6598,7 @@ ol, ul {
 }
 
 .title * {
-  color: #271D29;
+  color: #423300;
   margin: 0 2rem;
   font-family: "Yeseva One", serif;
   text-decoration: none;
@@ -6603,18 +6608,18 @@ ol, ul {
   display: flex;
   flex: 0 0 auto;
   justify-content: space-between;
-  border-top: 3px dashed #271D29;
+  border-top: 3px dashed #423300;
   background-color: #F2C23F;
   padding: 4rem 6rem;
 }
 
 .footer a {
-  color: #271D29;
+  color: #423300;
   text-decoration: none;
 }
 
 .footer .social {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .social a {
@@ -6766,8 +6771,19 @@ picture {
 
 .box {
   padding-top: 1.5em;
-  border: 3px solid #DE51F5;
+  /*border: 3px solid $accent-color;*/
+  border-radius: 20px;
   height: 10rem;
+  box-shadow: inset 5px 10px #610A71;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.box:hover {
+  transform: translateY(5px);
+  box-shadow: inset 10px 20px 2px #610A71;
 }
 
 .landingpage > h1, .box {
